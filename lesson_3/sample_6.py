@@ -47,7 +47,7 @@ def generate(prompt: str) -> str:
 
 
 if __name__ == "__main__":
-    result = generate("私は田中です")
+    result = generate("私は榊原です")
     print("--- 生成結果1 ---")
     print(result)
     print("------\n")
