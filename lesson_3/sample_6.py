@@ -48,7 +48,8 @@ def generate(prompt: str) -> str:
 
 if __name__ == "__main__":
 
-    
+    user_input = input()
+
     result = generate(user_input)
     print("--- 生成結果1 ---")
     print(result)
