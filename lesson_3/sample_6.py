@@ -55,7 +55,9 @@ if __name__ == "__main__":
     print(result)
     print("------\n")
 
-    result = generate("私の名前を教えてください。")
+    user_input = input()
+
+    result = generate(user_input)
     print("--- 生成結果2 ---")
     print(result)
     print("------\n")
